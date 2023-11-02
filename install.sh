@@ -7,7 +7,7 @@ npm i
 npm pkg set scripts.build="webpack"
 npm pkg set scripts.install="bash ./install.sh" 
 npm pkg set scripts.test="mocha" 
-npm i resquest --save-dev
+npm i request --save-dev
 #Add necessary express dependencies
 mkdir -p {src/js,src/scss} 
 touch {src/js/main.js,src/scss/style.scss}
