@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #Makes the express app
-npm_global=$(npm list -g | head -1)
-${npm_global}/express --view=pug -f --git
+express --view=pug -f --git
 npm i
 
 #Add necessary express dependencies
