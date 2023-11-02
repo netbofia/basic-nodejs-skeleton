@@ -27,6 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install -g express-generator@4
+    - run: npm install -g npm@9.7.1
     - run: npm run install
     - run: npm run build
     - run: npm install mocha -g
