@@ -36,7 +36,8 @@ module.exports = {
             template: "./views/webpack.pug",
             filename: path.resolve(__dirname, 'views/layout.pug'),
             inject: 'body',
-            publicPath: '/admin/public/webpack',
+            //PublicPath that is exposed through framework
+            publicPath: '/webpack/',
             minify:false
         }),
         new HtmlWebpackPugPlugin(),
