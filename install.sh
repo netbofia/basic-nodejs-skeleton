@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Makes the express app
-express --view=pug
+express --view=pug -f --git
 npm i
 
 #Add necessary express dependencies
