@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm install -g express-generator@4
     - run: npm run install
+    - run: npm run build
     - run: npm install mocha -g
     - run: (npm run start&)
     - run: npm test
