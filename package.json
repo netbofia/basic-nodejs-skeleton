@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "install": "bash ./install.sh",
     "build": "webpack"
   },
   "dependencies": {
